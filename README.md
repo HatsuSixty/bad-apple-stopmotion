@@ -25,7 +25,7 @@ $ ffmpeg -i badapple7.mp4 ./frames/frame_%04d.png
 
 ### Step 3
 
-In the next step, you will need to create an `./output` folder, and run `./apply.sh`. This script will run `stopify.py` on each `.png` inside the `./frames` folder, outputing the generated frames into the `./output` folder. You can do that by running the following commands:
+In this step, you will need to create an `./output` folder, and run `./apply.sh`. This script will run `stopify.py` on each `.png` inside the `./frames` folder, outputing the generated frames into the `./output` folder. You can do that by running the following commands:
 ```console
 $ mkdir output
 $ ./apply.sh
@@ -34,7 +34,7 @@ This will take some time to render, but once you're done, you can go to the next
 
 ### Step 4
 
-The next step is to backup the `./output` folder into an `./output2` folder, as it will be important later on.
+In this step you should backup the `./output` folder into an `./output2` folder, as it will be important later on.
 Once you've done that, you will need to run `./worsify.py`. This script will randomly choose frames in the `./output` folder to either dim them or rotate them. You can do that by running the following commands:
 ```console
 $ cp -r output output2
