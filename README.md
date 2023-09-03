@@ -4,6 +4,9 @@ A bunch of python scripts made with the goal of turning [Bad Apple!!](https://ww
 
 ## How the fuck do I use that shit?
 
+**Before we get into the tutorial, please keep in mind that you will need to have the `pillow` and `numpy` python libraries installed!**
+<br>
+
 You first need the Bad Apple!! video. Just download it using any YouTube downloader website. <br>
 Then, use ffmpeg to reduce the FPS of the video with the following command:
 ```console
